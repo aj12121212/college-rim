@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Home </title>
+<style type="text/css">
+     *{padding: 0; margin:0; box-sizing: border-box;}
+     header{
+         width: 100%;
+         height: 100vh;
+         background-image: url('img/nbg.jpg');
+         background-size: cover;
+         font-family: sans-serif;
+     }
+     nav{
+         width: 100%;
+         height: 100px;
+         color: #fff;
+         display: flex;
+         Justify-content: space-around;
+         align-items: center;
+}
+     .logo img{
+         float: left;
+         width: 120px;
+         height: auto;
+}
+     ul{
+         list-style-type: none; 
+} 
+     ul li{
+         display:inline-block; 
+}
+     ul li  a{
+         text-decoration: none;
+         color: #fff;
+         padding: 4px 20px;
+         transition: 0.7s ease;
+}
+     ul li a:hover{
+         background-color: #ff7200;
+         color: #fff;  
+}
+     ul  li.active a{
+         background-color: #ff7200;
+         color: #fff;
+}
+    .search{
+         width: 300px;
+         float: left;
+}
+    .src{
+         font-family: 'Times New Roman';
+         width: 200px;
+         height: 27px;
+         background: transparent;
+         border: 1px solid #ff7200;
+         margin-top: none;
+         color: #fff;
+         border-right: none;
+         font-size: 15px;
+         float: left;
+         padding: 10px;
+         border-botton-left-radius: 5px;
+         border-top-left-radius: 5px;
+}
+    .btn{
+         width: 70px;
+         height: 27px;
+         background: #ff7200;
+         border: 2px solid #ff7200;
+         margin-top: none;
+         color: #fff;
+         font-size: 15px;
+         border-botton-right-radius: 5px;
+         border-botton-right-radius: 5px;
+         cursor: pointer;
+}
+    .btn:focus{
+         outline: none;
+     
+}  
+    .src:focus{
+         outline: none;
+}
+    .ord{
+         width: 290px;
+         height: 580px;
+         background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+         position: absolute;
+         bottom: 40px;
+         left: 1103px;
+         border-radius: 10px;
+         padding: 25px;
+}
+    .ord h2{
+         width: 220px;
+         font-family: sans-serif;
+         text-align: center;
+         color: #ff7200;
+         font-size: 22px;
+         background-color: #fff;
+         border-radius: 10px;
+         margin: 2px;
+         padding: 7px;
+}
+    .ord input{
+         width: 240px;
+         height: 30px;
+         background: transparent;
+         border-top: none;
+         border-right: none;
+         border-left: none;
+         color: #fff;
+         font-size: 15px;
+         letter-spacing: 1px;
+         margin-top: 30px;
+         font-family: sans-serif;
+}
+    .ord input: focus{
+         outline: none;
+}
+    ::placeholder{
+         color: #fff;
+         font-family: Arial;
+}
+    .btnn{
+         width: 240px;
+         heignt: 40px;
+         background: #ff7200;
+         border: none;
+         margin-top: 30px;
+         font-size: 20px;
+         border-radius: 10px;
+         cursor: pointer;
+         color: #fff;
+         transition: 0.4s ease;
+         padding: 6px;
+}
+    .btnn:hover{
+         background: #fff;
+         color: #ff7200;
+         
+         box-shadow: 0 0 7px #ff7200, 0 0 7px #ff7200,0 0 7px #ff7200,0 0 7px #ff7200;
+}
+    .btnn a{
+         text-decoration: none;
+         color: #000;
+         font-weight: bold;
+}
+    .card{
+         width: 450px;
+         height: 235px;
+         display: inline-block;
+         border-radius: 10px;
+         padding: 15px 25px;
+         box-sizing: border-box:
+         margin: 10px 15px;
+         background-image: url(img/13.jpg);
+         background-position: center;
+         background-size: cover;
+         transition: 0.5s ease;
+}
+    .card1{
+         background-image: url(img/15.jpg);
+         position: absolute;
+         top: 140px;
+         left: 145px;
+         border-radius: 10px;
+         padding: 25px;
+         color: #fff;   
+} 
+    .card2{
+         background-image: url(img/13.jpg);
+         position: absolute;
+         top: 140px;
+         left: 625px;
+         border-radius: 10px;
+         padding: 25px;
+         color: #fff;
+
+}
+    .card3{
+         background-image: url(img/14.jpg);
+         position: absolute;
+         bottom: 100px;
+         left: 145px;
+         border-radius: 10px;
+         padding: 25px;
+         color: #fff;
+
+}
+    .card4{
+         background-image: url(img/16.jpg);
+         position: absolute;
+         bottom: 100px;
+         left: 625px;
+         border-radius: 10px;
+         padding: 25px;
+         color: #fff;
+}
+    .card:hover{
+         transform: scale(1.1);
+         cursor: pointer;
+}
+    .card h5{
+         background: transparent;
+         background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+         color: #fff;
+         font-size: 15px;
+         letter-spacing: 1px;
+         font-family: sans-serif;
+         animation: animate 8s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+{
+       color: #bfbdbc;
+       text-shadow: none;
+}
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+{
+       color: #fff;
+       text-shadow: 0 0 10px #ff7200, 0 0 20px #ff7200, 0 0 40px #ff7200, 0 0 80px #ff7200, 0 0 1600px #ff7200;
+  } 
+}
+    .card p{
+         background: transparent;
+         background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+         color: #fff;
+         font-size: 15px;
+         letter-spacing: 1px;
+         font-family: Aharoni;
+         animation: animate 8s linear infinite;
+}
+    .pro{
+         Color: #ff7200;
+         position: absolute;
+         bottom: 60px;
+         left: 147px;
+         font-size: 10px;
+         background-color: #fff;
+         border-radius: 6px;
+         margin: 2px;
+         padding: 2px;
+         font-family: sans-serif;
+         text-align: center;
+         transition: transform 0.5s;
+}
+    .pro:hover{
+         transform: scale(1.1);
+         z-index: 2;
+         box-shadow: 0 0 7px #ff7200;, 0 0 7px #ff7200,0 0 7px #ff7200,0 0 7px #ff7200; 
+} 
+          
+    .date-time{
+         width: 120px;
+         height: 21.5px;
+         position: absolute;
+         bottom: 59.5px;
+         right: 464px;
+         background-color: #fff;
+         margin: 2px;
+         padding: 2px;
+         border-radius: 6px;
+         display: flex;
+         transition: transform 0.5s;   
+         font-size: 14px;
+         font-weight: bold;
+         width: 208px;
+         Color: #ff7200;
+         display: inline-block;
+         text-align: center;
+         font-family: sans-serif;
+}
+    .date-time:hover{
+         transform: scale(1.1);
+         z-index: 2;
+         box-shadow: 0 0 7px #ff7200;, 0 0 7px #ff7200,0 0 7px #ff7200,0 0 7px #ff7200; 
+}    
+</style>
+</head>
+<body>
+<header>
+     <nav>
+        <div class="logo"> 
+         <img src="img/0.png">
+        </div>
+        <div class="menu">
+          <ul>
+            <li class="active" ><a href="#">Home</a></li>
+            <li><a href="Menu Card.html" target="_blank">Menu Card</a></li>
+            <li><a href="Contect.html" target="_blank">Contect</a></li>
+            <li><a href="About.html" target="_blank">About</a></li>
+            <li><a href="Help.html" target="_blank">Help</a></li>
+          </ul>
+        </div>
+        <div class="search">
+            <input class="src" type="search"  placeholder="Insert your Choice">
+            <a href="Menu Card.html" target="_blank"><Button class="btn">Search</button></a>
+         </div>
+     </nav>
+        <div class="ord">
+            <h2>Order Now</h2>
+            <input type="state" name="state" placeholder="Enter your State">
+            <input type="distric" name="distric" placeholder="Enter your District">
+            <input type="city" name="city" placeholder="Enter your City">
+            <input type="cly" name="cly" placeholder="Enter your Colony">
+            <input type="flt" name="flt" placeholder="Enter your Flate/House No.">
+            <input type="itm" name="itm" placeholder="Enter your Iteam/Quantity">
+            <input type="mob" name="mob" placeholder="Enter your Mobile No.">
+            <button class="btnn"><a href="#">Order</a></button>
+          </div>
+
+         <div class"card">
+            
+           <div class="card card1">
+                   <b><h5>Burger</h5></b>
+                   <p>Burger 150Rs/pic.</p>
+               <a href="Menu Card.html"> </a>
+            </div>
+           <div class="card card2">
+                   <b><h5>Momos</h5></b>
+                   <p>Momos 120Rs/plate.</p>
+            </div>
+           <div class="card card3">
+                   <b><h5>Chow mein</h5></b>
+                   <p>Chow mein 70Rs/plate.</p>
+            </div>
+           <div class="card card4">
+                   <b><h5>Chilli Potato</h5></b>
+                   <p>Chilli Potato 170Rs/plate.</p>
+            </div>
+         </div>
+         <div class="pro">
+            <h2>Pro. Ajay Chauhan S/O Mr. Jaiprakash Chauhan</h2>
+          </div>                 
+</header> 
+          <div class="date-time" id="dateTime"></div>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = {year: 'numeric', month: 'long', day: 'numeric' };
+            const date = now.toLocaleDateString(undefined, options);
+
+            let hours = now.getHours();
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const ampm = hours >= 12 ? 'PM' : 'AM';
+
+            hours = hours % 12 || 12; 
+            const time = `${hours}:${minutes}:${seconds} ${ampm}`;
+
+            document.getElementById('dateTime').innerText = `${date}, ${time}`;
+        }
+
+        setInterval(updateDateTime, 1000); 
+        updateDateTime(); 
+    </script>
+
+
+</body>
+</html>
