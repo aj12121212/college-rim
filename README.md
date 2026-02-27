@@ -108,8 +108,9 @@ Through this project, I learned:
 Ajay Chauhan  
 ADCA Web Design Practical Submission – 2024  
 
-Currently pursuing:  
-BCA (Data Science & Artificial Intelligence)
+Currently Pursuing:  
+Bachelor of Computer Applications (Data Science & Artificial Intelligence)  
+Babu Banarasi Das University, Lucknow
 
 ---
 
