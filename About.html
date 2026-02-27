@@ -4,12 +4,13 @@
      <title> About </title>
 <style type="text/css">
      *{padding: 0; margin:0; box-sizing: border-box;}
-     header{
-         width: 100%;
-         height: 100vh;
-         background-image: url('nbg.jpg');
-         background-size: cover;
-         font-family: sans-serif;
+header{
+    width: 100%;
+    background: url('nbg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;   /* optional premium effect */
+    font-family: 'Segoe UI', sans-serif;
+    padding-bottom: 40px;  /* thoda breathing space */
 }
      nav{
          width: 100%;
@@ -83,6 +84,98 @@
          outline: none;
 }
 
+/* ===== About Section ===== */
+
+.about-section{
+    width: 75%;
+    margin: 80px auto;
+    padding: 60px;
+    background: rgba(0,0,0,0.85);
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+}
+
+/* Heading */
+
+.about-section h1{
+    text-align: center;
+    font-size: 38px;
+    color: #ff7200;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph */
+
+.about-section p{
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 auto 18px auto;
+    color: #e5e5e5;
+    max-width: 850px;
+}
+
+/* Highlight text */
+
+.highlight{
+    color: #ff7200;
+    font-weight: 600;
+}
+
+/* Grid Layout */
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* Cards */
+
+.about-card{
+    background: #111;
+    padding: 28px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-align: center;
+    border: 1px solid rgba(255,114,0,0.15);
+}
+
+.about-card:hover{
+    transform: translateY(-6px);
+    background: #1a1a1a;
+}
+
+/* Card Heading */
+
+.about-card h3{
+    color: #ff7200;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Card Text */
+
+.about-card p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #cccccc;
+    margin: 0;
+}
+
+/* ===== Footer ===== */
+
+footer{
+    text-align: center;
+    padding: 22px;
+    background: #000;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #bbb;
+    border-top: 1px solid rgba(255,114,0,0.3);
+}
 </style>
 </head>
 <body>
@@ -94,10 +187,10 @@
      <div class="menu">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Menu Card.html" target="_blank">Menu Card</a></li>
-            <li><a href="Contect.html" target="_blank">Contect</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="Help.html" target="_blank">Help</a></li>
+            <li><a href="Menu Card.html">Menu Card</a></li>
+            <li><a href="Contect.html">Contect</a></li>
+            <li class="active"><a href="About.html">About</a></li>
+            <li><a href="Help.html">Help</a></li>
           </ul>
         </div>
         <div class="search">
@@ -105,7 +198,55 @@
             <a href="#"><Button class="btn">Search</button></a>
          </div>
      </nav>
- 
+
+<div class="about-section">
+
+    <h1>About Rim Jhim Restaurant</h1>
+
+    <div class="about-content">
+        <p>
+            <span class="highlight">Rim Jhim Restaurant</span> is a trusted food destination 
+            located near Gandhi School in Hata, Kushinagar, Uttar Pradesh.
+            We proudly serve fresh, hygienic, and flavorful meals to families, students, 
+            and visitors in the local community.
+        </p>
+
+        <p>
+            Our menu blends traditional Indian cuisine with popular fast-food favorites.
+            Whether you are dining with friends or enjoying a family evening,
+            we focus on quality ingredients, authentic taste, and a comfortable ambience.
+        </p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+            <h3>📍 Prime Location</h3>
+            <p>Conveniently located near Gandhi School, easily accessible for everyone in Hata.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>🥗 Fresh Ingredients</h3>
+            <p>We maintain high hygiene standards and prepare meals using fresh ingredients daily.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>👨‍🍳 Authentic Taste</h3>
+            <p>Our chefs ensure consistent flavor and quality in every dish served.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>🏠 Comfortable Ambience</h3>
+            <p>A welcoming space ideal for family dinners, meetups, and small celebrations.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Rim Jhim Restaurant | Designed with ❤️ for Food Lovers
+</footer> 
 </header>    
 </body>
 </html>

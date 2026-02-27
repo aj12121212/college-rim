@@ -4,12 +4,13 @@
      <title>Help</title>
 <style type="text/css">
      *{padding: 0; margin:0; box-sizing: border-box;}
-     header{
-         width: 100%;
-         height: 100vh;
-         background: url('nbg.jpg');
-         background-size: cover;
-         font-family: sans-serif;
+header{
+    width: 100%;
+    background: url('nbg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;   /* optional premium effect */
+    font-family: 'Segoe UI', sans-serif;
+    padding-bottom: 40px;  /* thoda breathing space */
 }
      nav{
          width: 100%;
@@ -83,6 +84,83 @@
          outline: none;
 }
 
+/* ===== Help Section ===== */
+.help-section{
+    width: 75%;
+    margin: 40px auto 80px auto;   /* top margin reduce kiya */
+    padding: 60px;
+    background: rgba(0,0,0,0.88);
+    border-radius: 14px;
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.help-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.help-header h1{
+    font-size: 36px;
+    color: #ff7200;
+    margin-bottom: 15px;
+}
+
+.help-header p{
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* FAQ */
+
+.faq-container{
+    margin-bottom: 50px;
+}
+
+.faq-item{
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ff7200;
+}
+
+.faq-item h3{
+    margin-bottom: 8px;
+    color: #ff7200;
+    font-size: 18px;
+}
+
+.faq-item p{
+    font-size: 15px;
+    color: #ccc;
+}
+
+/* Support Cards */
+
+.support-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 25px;
+}
+
+.support-card{
+    background: #111;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.support-card:hover{
+    background: #1a1a1a;
+    transform: translateY(-5px);
+}
+
+.support-card h3{
+    color: #ff7200;
+    margin-bottom: 10px;
+}
 </style>
 </head>
 <body>
@@ -97,7 +175,7 @@
             <li><a href="Menu Card.html">Menu Card</a></li>
             <li><a href="Contect.html">Contect</a></li>
             <li><a href="About.html">About</a></li>
-            <li class="active"><a href="#">Help</a></li>
+            <li class="active"><a href="Help.html">Help</a></li>
           </ul>
         </div>
         <div class="search">
@@ -105,6 +183,65 @@
             <a href="#"><Button class="btn">Search</button></a>
          </div>
      </nav>
+
+<section class="help-section">
+
+    <div class="help-header">
+        <h1>How Can We Help You?</h1>
+        <p>Find answers to common questions about orders, reservations, and services at Rim Jhim Restaurant.</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <h3>🕒 What are your opening hours?</h3>
+            <p>We are open Monday to Sunday from 10:00 AM to 11:00 PM.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>📍 Where are you located?</h3>
+            <p>We are located near Gandhi School, Hata – Kushinagar, Uttar Pradesh.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>🚚 Do you offer takeaway services?</h3>
+            <p>Yes, takeaway services are available for all menu items.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>🎉 Do you accept party bookings?</h3>
+            <p>Yes, we accept small party and family gathering bookings. Please call us in advance.</p>
+        </div>
+
+    </div>
+
+    <!-- Reservation & Support -->
+    <div class="support-grid">
+
+        <div class="support-card">
+            <h3>📞 Call Us</h3>
+            <p>For reservations and support:<br> +91 XXXXX XXXXX</p>
+        </div>
+
+        <div class="support-card">
+            <h3>📧 Email Support</h3>
+            <p>rimjhimrestaurant@gmail.com</p>
+        </div>
+
+        <div class="support-card">
+            <h3>🍽 Services</h3>
+            <p>Dine-In | Takeaway Available</p>
+        </div>
+
+        <div class="support-card">
+            <h3>🕒 Business Hours</h3>
+            <p>Monday – Sunday<br>10:00 AM – 11:00 PM</p>
+        </div>
+
+    </div>
+
+</section>
  
 </header>    
 </body>
