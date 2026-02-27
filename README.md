@@ -1,41 +1,65 @@
-# 🍽️ Rim Jhim Restaurant – Menu Card Website
+# 🍽️ RIM JHIM RESTAURENT – Static Restaurant Website
 
 ## 📌 Project Overview
 
-This project is my **first web design project**, created during my **ADCA (Advanced Diploma in Computer Applications)** course.
+**Rim Jhim Restaurant** is a multi-page static restaurant website developed using HTML, CSS, and basic JavaScript.
 
-It was developed as part of my final practical evaluation, where I had to present:
+This project was created during my **ADCA (Advanced Diploma in Computer Applications)** course and was presented as part of my final practical examination (Web Design + Graphic Design).
 
-- A Web Design Project
-- A Graphic Design Project
-
-This website was presented in my practical test and was successfully approved.
+The project was successfully evaluated and approved.
 
 ---
 
-## 🎓 Course Details
+## 🎓 Academic Background
 
-- **Course Name:** ADCA (Advanced Diploma in Computer Applications)
-- **Duration:** 4 March 2022 – 08 May 2024
-- **Final Evaluation:** Web Design + Graphic Design Practical Test
+- **Course:** ADCA (Advanced Diploma in Computer Applications)
+- **Duration:** 04 March 2022 – 08 May 2024
+- **Final Practical Submission:**  
+  - Web Design Project  
+  - Graphic Design Project  
 - **Status:** ✅ Successfully Passed
 
+This repository preserves the original submitted version without modernization to maintain authenticity.
+
 ---
 
-## 🖥️ Project Description
+## 🌐 Project Structure
 
-The project is a static restaurant menu card website designed using pure HTML and CSS.
+The website consists of multiple interconnected pages:
 
-It includes:
+- `index.html` – Home Page
+- `Menu Card.html` – Complete Food Menu
+- `About.html` – About Page
+- `Contect.html` – Contact Page
+- `Help.html` – Help Page
 
-- Responsive navigation bar
-- Animated glowing text effects
-- Custom background images
-- Multiple menu sections
-- CSS animations using `@keyframes`
-- Creative visual layout with decorative elements
+Each page is connected through a navigation bar for smooth user experience.
 
-This project represents my foundational learning phase in web development.
+---
+
+## ✨ Key Features
+
+### 🔹 Multi-Page Navigation
+- Fully linked navigation bar
+- Active page highlighting
+- Internal page routing
+
+### 🔹 Visual UI Design
+- Background images
+- Food cards with hover effects
+- Glowing animated text using `@keyframes`
+- Gradient overlays for readability
+
+### 🔹 Interactive Components
+- Live Date & Time Display (JavaScript)
+- Order Form Section
+- Search Input UI
+
+### 🔹 Menu System
+- 130+ Food Items
+- Categorized presentation
+- Circular food preview images
+- Structured price formatting
 
 ---
 
@@ -43,49 +67,73 @@ This project represents my foundational learning phase in web development.
 
 - HTML5
 - CSS3
-- CSS Animations
-- Basic Layout Design
-- Static Website Deployment (GitHub Pages)
+- CSS Animations (`@keyframes`)
+- Basic JavaScript (Date & Time Script)
+- Static Image Assets
+- GitHub Pages Deployment
 
 ---
 
-## 🎯 Purpose of This Project
+## 🎨 Design Philosophy
 
-This repository is intentionally kept in its original beginner form.
+This project reflects:
 
-It reflects:
+- Early-stage UI creativity
+- Manual layout positioning techniques
+- Static design structure
+- Beginner-level animation experiments
 
-- My starting point in web development
-- My learning journey
-- My growth from basic design to advanced development
-
-No redesign or modernization has been applied in order to preserve the authenticity of my early work.
+No frameworks or libraries were used intentionally, as this was built during foundational learning.
 
 ---
 
-## 📈 Growth Reflection
+## 📸 UI Highlights
 
-Since completing this project, I have:
+- Dark theme restaurant background
+- Animated glowing headings
+- Food preview image cards
+- Structured two-column menu layout
+- Static order form design
 
-- Pursued BCA (Data Science & Artificial Intelligence)
-- Worked on backend systems
-- Implemented APIs
-- Explored cloud deployment
-- Built structured projects with better architecture
+---
 
-This project remains a milestone in my development journey.
+## 🚀 Deployment
+
+The project is deployed using **GitHub Pages** as a static website.
+
+It runs entirely on the client side without backend integration.
+
+---
+
+## 📈 Learning Outcome
+
+Through this project, I learned:
+
+- Multi-page website structure
+- Navigation linking
+- CSS layout control
+- Image path management
+- Animation fundamentals
+- Basic DOM manipulation (JavaScript)
+
+This project marks the beginning of my web development journey.
 
 ---
 
 ## 👨‍💻 Author
 
-**Ajay**  
-First Web Project – ADCA Practical Submission  
-Year: 2024
+**Ajay Chauhan**  
+Web Design Practical Submission  
+ADCA – 2024  
+
+Currently pursuing:  
+BCA (Data Science & Artificial Intelligence)
 
 ---
 
-## ⭐ Final Note
+## 📌 Important Note
+
+This repository intentionally preserves the original beginner implementation to showcase my growth journey.
 
 Every expert was once a beginner.  
-This project represents where my journey started.
+This project represents where my development journey started.
