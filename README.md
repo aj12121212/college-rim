@@ -1,65 +1,57 @@
-# 🍽️ RIM JHIM RESTAURENT – Static Restaurant Website
+# 🍽️ RIM JHIM RESTAURANT
+
+A multi-page static restaurant website developed using HTML, CSS, and basic JavaScript.
+
+---
 
 ## 📌 Project Overview
 
-**Rim Jhim Restaurant** is a multi-page static restaurant website developed using HTML, CSS, and basic JavaScript.
+Rim Jhim Restaurant is a front-end web design project created during my ADCA (Advanced Diploma in Computer Applications) course.  
 
-This project was created during my **ADCA (Advanced Diploma in Computer Applications)** course and was presented as part of my final practical examination (Web Design + Graphic Design).
+This project was submitted as part of my final practical examination (Web Design + Graphic Design) and was successfully approved.
 
-The project was successfully evaluated and approved.
-
----
-
-## 🎓 Academic Background
-
-- **Course:** ADCA (Advanced Diploma in Computer Applications)
-- **Duration:** 04 March 2022 – 08 May 2024
-- **Final Practical Submission:**  
-  - Web Design Project  
-  - Graphic Design Project  
-- **Status:** ✅ Successfully Passed
-
-This repository preserves the original submitted version without modernization to maintain authenticity.
+This repository preserves the original submitted version to reflect my early learning phase in web development.
 
 ---
 
-## 🌐 Project Structure
+## 🎓 Academic Details
 
-The website consists of multiple interconnected pages:
-
-- `index.html` – Home Page
-- `Menu Card.html` – Complete Food Menu
-- `About.html` – About Page
-- `Contect.html` – Contact Page
-- `Help.html` – Help Page
-
-Each page is connected through a navigation bar for smooth user experience.
+- Course: ADCA (Advanced Diploma in Computer Applications)
+- Duration: 04 March 2022 – 08 May 2024
+- Final Practical Included:
+  - Web Design Project
+  - Graphic Design Project
+- Status: Successfully Passed
 
 ---
 
-## ✨ Key Features
+## 🌐 Website Structure
 
-### 🔹 Multi-Page Navigation
-- Fully linked navigation bar
-- Active page highlighting
-- Internal page routing
+The website consists of multiple interconnected static pages:
 
-### 🔹 Visual UI Design
-- Background images
-- Food cards with hover effects
-- Glowing animated text using `@keyframes`
-- Gradient overlays for readability
+- index.html – Home Page
+- Menu Card.html – Complete Menu
+- About.html – About the Restaurant
+- Contect.html – Contact Page
+- Help.html – Help / FAQ Section
 
-### 🔹 Interactive Components
-- Live Date & Time Display (JavaScript)
-- Order Form Section
-- Search Input UI
+All pages are connected via a navigation bar for smooth user experience.
 
-### 🔹 Menu System
-- 130+ Food Items
-- Categorized presentation
+---
+
+## ✨ Features
+
+- Multi-page navigation system
+- Active menu highlighting
+- Dark theme restaurant design
+- Background images with overlays
+- Animated glowing headings (CSS @keyframes)
+- 130+ food items listed
+- Categorized menu layout
 - Circular food preview images
-- Structured price formatting
+- Search input UI
+- Live Date & Time display (JavaScript)
+- Static order form design
 
 ---
 
@@ -67,73 +59,63 @@ Each page is connected through a navigation bar for smooth user experience.
 
 - HTML5
 - CSS3
-- CSS Animations (`@keyframes`)
-- Basic JavaScript (Date & Time Script)
-- Static Image Assets
-- GitHub Pages Deployment
+- CSS Animations
+- Basic JavaScript
+- Static image assets
+- GitHub Pages (Deployment)
+
+No frameworks or external libraries were used.
 
 ---
 
-## 🎨 Design Philosophy
+## 🎨 Design Approach
 
 This project reflects:
 
-- Early-stage UI creativity
+- Beginner-level front-end development
 - Manual layout positioning techniques
-- Static design structure
-- Beginner-level animation experiments
+- Static multi-page website structure
+- Basic animation experiments
 
-No frameworks or libraries were used intentionally, as this was built during foundational learning.
-
----
-
-## 📸 UI Highlights
-
-- Dark theme restaurant background
-- Animated glowing headings
-- Food preview image cards
-- Structured two-column menu layout
-- Static order form design
+It represents the foundation stage of my web development journey.
 
 ---
 
 ## 🚀 Deployment
 
-The project is deployed using **GitHub Pages** as a static website.
+The website is deployed using GitHub Pages.
 
 It runs entirely on the client side without backend integration.
 
 ---
 
-## 📈 Learning Outcome
+## 📈 Learning Outcomes
 
 Through this project, I learned:
 
-- Multi-page website structure
+- Multi-page website development
 - Navigation linking
-- CSS layout control
+- CSS layout and positioning
 - Image path management
 - Animation fundamentals
-- Basic DOM manipulation (JavaScript)
-
-This project marks the beginning of my web development journey.
+- Basic DOM manipulation
+- Static site deployment
 
 ---
 
 ## 👨‍💻 Author
 
-**Ajay Chauhan**  
-Web Design Practical Submission  
-ADCA – 2024  
+Ajay Chauhan  
+ADCA Web Design Practical Submission – 2024  
 
 Currently pursuing:  
 BCA (Data Science & Artificial Intelligence)
 
 ---
 
-## 📌 Important Note
+## 📌 Note
 
 This repository intentionally preserves the original beginner implementation to showcase my growth journey.
 
-Every expert was once a beginner.  
+Every expert was once a beginner.
 This project represents where my development journey started.
