@@ -231,27 +231,3 @@ This repository intentionally preserves the original beginner implementation to 
 
 Every expert was once a beginner.
 This project represents where my development journey started.
-
-ye mera projefct hai, so mujhe professional level redmi code do
-
-Ajay, maine aapke project ke files dekhe. Aapka project beginner phase ka hai, lekin structure achha hai. Lekin kuch issues hain jo professional level repo me improve karne chahiye:
-
-Inline CSS (production me avoid hota hai)
-
-File naming issues (Contect.html, Menu Card.html)
-
-No folder structure
-
-No responsive design
-
-No clean documentation
-
-No demo badge
-
-No screenshots section
-
-No professional repo structure
-
-Aapka README bhi achha hai, bas usko GitHub-level premium format me convert karna hai.
-
-Main aapko Professional README.md de raha hoon jo GitHub portfolio me strong lagega.
